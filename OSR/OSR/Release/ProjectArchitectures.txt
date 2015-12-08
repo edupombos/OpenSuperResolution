@@ -1,0 +1,1 @@
+E:\git\OpenSuperResolution\OSR\OSR\OSR.vcxproj;x86

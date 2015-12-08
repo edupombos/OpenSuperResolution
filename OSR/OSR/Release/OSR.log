@@ -1,0 +1,40 @@
+﻿Build started 08/12/2015 01:50:46.
+     1>Project "E:\git\OpenSuperResolution\OSR\OSR\OSR.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IE:\git\OpenSuperResolution\OSR\OSR\ /I"Generated Files\\" /IRelease\ /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /O2 /Oi /Oy- /GL /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"pch.h" /Fp"Release\OSR.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\store\references\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\10\References\Windows.Foundation.FoundationContract\1.0.0.0\Windows.Foundation.FoundationContract.winmd" /FU"C:\Program Files (x86)\Windows Kits\10\References\Windows.Foundation.UniversalApiContract\1.0.0.0\Windows.Foundation.UniversalApiContract.winmd" /FU"C:\Program Files (x86)\Windows Kits\10\References\Windows.Networking.Connectivity.WwanContract\1.0.0.0\Windows.Networking.Connectivity.WwanContract.winmd" /analyze- /errorReport:prompt /bigobj App.xaml.cpp MainPage.xaml.cpp
+         App.xaml.cpp
+         MainPage.xaml.cpp
+       CreateWinMD:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\git\OpenSuperResolution\OSR\Release\OSR\OSR.exe" /NOLOGO WindowsApp.lib /MANIFEST:NO /DEBUG /PDB:"E:\git\OpenSuperResolution\OSR\Release\OSR\OSR.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /APPCONTAINER /WINMD:ONLY /WINMDFILE:"E:\git\OpenSuperResolution\OSR\Release\OSR\OSR.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH Release\App.xaml.obj
+         Release\MainPage.xaml.obj
+         Release\pch.obj
+         Release\XamlTypeInfo.Impl.g.obj
+         Generating code
+         Finished generating code
+       CompileXamlGeneratedFiles:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IE:\git\OpenSuperResolution\OSR\OSR\ /I"Generated Files\\" /IRelease\ /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /O2 /Oi /Oy- /GL /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"pch.h" /Fp"Release\OSR.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\store\references\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\10\References\Windows.Foundation.FoundationContract\1.0.0.0\Windows.Foundation.FoundationContract.winmd" /FU"C:\Program Files (x86)\Windows Kits\10\References\Windows.Foundation.UniversalApiContract\1.0.0.0\Windows.Foundation.UniversalApiContract.winmd" /FU"C:\Program Files (x86)\Windows Kits\10\References\Windows.Networking.Connectivity.WwanContract\1.0.0.0\Windows.Networking.Connectivity.WwanContract.winmd" /analyze- /errorReport:prompt /bigobj "Generated Files\XamlTypeInfo.g.cpp"
+         XamlTypeInfo.g.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\git\OpenSuperResolution\OSR\Release\OSR\OSR.exe" /NOLOGO WindowsApp.lib /MANIFEST:NO /DEBUG /PDB:"E:\git\OpenSuperResolution\OSR\Release\OSR\OSR.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"E:\git\OpenSuperResolution\OSR\Release\OSR\OSR.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH Release\App.xaml.obj
+         Release\MainPage.xaml.obj
+         Release\pch.obj
+         Release\XamlTypeInfo.Impl.g.obj
+         Release\XamlTypeInfo.g.obj
+            Creating library E:\git\OpenSuperResolution\OSR\Release\OSR\OSR.lib and object E:\git\OpenSuperResolution\OSR\Release\OSR\OSR.exp
+         Generating code
+         54 of 2368 functions ( 2.3%) were compiled, the rest were copied from previous compilation.
+           2 functions were new in current compilation
+           145 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         OSR.vcxproj -> E:\git\OpenSuperResolution\OSR\Release\OSR\OSR.exe
+       _GenerateProjectPriFileCore:
+         C:\Program Files (x86)\Windows Kits\10\bin\x64\MakePri.exe New -ProjectRoot E:\git\OpenSuperResolution\OSR\OSR\ -ConfigXml Release\priconfig.xml -OutputFile E:\git\OpenSuperResolution\OSR\Release\OSR\resources.pri -IndexName bfd43651-2c3e-4312-9ab9-924928e32e38 -Verbose -Overwrite  
+       BuildNativePackage:
+         "C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\x86\ilc\ilc.exe" /in:"E:\git\OpenSuperResolution\OSR\OSR\Release\ilc\in" /out:"E:\git\OpenSuperResolution\OSR\Release\OSR\ilc" /intermediatespath:"E:\git\OpenSuperResolution\OSR\OSR\Release\ilc\intermediate" /v:normal /keepintermediates:true /buildtype:chk /exename:"OSR.exe" /makepripath:"C:\Program Files (x86)\Windows Kits\10\bin\x64\MakePri.exe" /appPriProjectRoot:"E:\git\OpenSuperResolution\OSR\OSR" /rcpath:"C:\Program Files (x86)\Windows Kits\10\\bin\x86\rc.exe" /targetplatformsdklibpath:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\um" /targetplatformsdkmetadatapath:"C:\Program Files (x86)\Windows Kits\10\UnionMetadata" /targetframeworkpath:"C:\Program Files (x86)\MSBuild\..\Reference Assemblies\Microsoft\Framework\.NETCore\v4.5.1" /RdXmlPath:"C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\LibraryXML" /suppressPDBWarnings:true /AllowNoManagedCode /UseCustomFramework "/logger:CsvLogger;2068;2072"
+         Compilation successful.
+         
+     1>Done Building Project "E:\git\OpenSuperResolution\OSR\OSR\OSR.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:29.00
