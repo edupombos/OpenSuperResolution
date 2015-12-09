@@ -18,26 +18,34 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\LockScreenLogo.scale-200.png">
-      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\AppTitleIcon.png">
+      <PackagePath>Assets\AppTitleIcon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\SplashScreen.scale-200.png">
-      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\BadgeLogo.Scale-100.png">
+      <PackagePath>Assets\BadgeLogo.Scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\Square150x150Logo.scale-200.png">
-      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\Logo.Scale-100.png">
+      <PackagePath>Assets\Logo.Scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\Square44x44Logo.scale-200.png">
-      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\SmallLogo.Scale-100.png">
+      <PackagePath>Assets\SmallLogo.Scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
-      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\SplashScreen.Scale-100.png">
+      <PackagePath>Assets\SplashScreen.Scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
+    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\Square310x310Logo.Scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.Scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\Wide310x150Logo.scale-200.png">
-      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\Square70x70Logo.Scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.Scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\StoreLogo.Scale-100.png">
+      <PackagePath>Assets\StoreLogo.Scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\WideLogo.Scale-100.png">
+      <PackagePath>Assets\WideLogo.Scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\OSR.exe">
       <PackagePath>OSR.exe</PackagePath>

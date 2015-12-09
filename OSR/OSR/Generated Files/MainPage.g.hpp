@@ -34,9 +34,27 @@ void ::OSR::MainPage::Connect(int __connectionId, ::Platform::Object^ __target)
             break;
         case 2:
             {
-                ::Windows::UI::Xaml::Controls::AppBarButton^ element2 = safe_cast<::Windows::UI::Xaml::Controls::AppBarButton^>(__target);
-                (safe_cast<::Windows::UI::Xaml::Controls::AppBarButton^>(element2))->Click += ref new ::Windows::UI::Xaml::RoutedEventHandler(this, (void (::OSR::MainPage::*)
-                    (::Platform::Object^, ::Windows::UI::Xaml::RoutedEventArgs^))&MainPage::AppBarButton_Click);
+                this->titlePanel = safe_cast<::Windows::UI::Xaml::Controls::StackPanel^>(__target);
+            }
+            break;
+        case 3:
+            {
+                this->demo1 = safe_cast<::Windows::UI::Xaml::Controls::TextBlock^>(__target);
+            }
+            break;
+        case 4:
+            {
+                this->description = safe_cast<::Windows::UI::Xaml::Controls::TextBlock^>(__target);
+            }
+            break;
+        case 5:
+            {
+                this->image = safe_cast<::Windows::UI::Xaml::Controls::Image^>(__target);
+            }
+            break;
+        case 6:
+            {
+                this->title = safe_cast<::Windows::UI::Xaml::Controls::TextBlock^>(__target);
             }
             break;
     }

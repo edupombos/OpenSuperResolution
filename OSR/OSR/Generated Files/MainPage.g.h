@@ -12,6 +12,9 @@ namespace Windows {
         namespace Xaml {
             namespace Controls {
                 ref class StackPanel;
+                ref class TextBlock;
+                ref class Button;
+                ref class Image;
             }
         }
     }
@@ -33,6 +36,12 @@ namespace OSR
         bool _contentLoaded;
     
         private: ::Windows::UI::Xaml::Controls::StackPanel^ contentPanel;
+        private: ::Windows::UI::Xaml::Controls::StackPanel^ titlePanel;
+        private: ::Windows::UI::Xaml::Controls::TextBlock^ demo1;
+        private: ::Windows::UI::Xaml::Controls::TextBlock^ description;
+        private: ::Windows::UI::Xaml::Controls::Button^ button;
+        private: ::Windows::UI::Xaml::Controls::Image^ image;
+        private: ::Windows::UI::Xaml::Controls::TextBlock^ title;
     };
 }
 

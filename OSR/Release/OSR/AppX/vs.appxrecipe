@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>bfd43651-2c3e-4312-9ab9-924928e32e38</PackageIdentityName>
     <IntermediateOutputPath>E:\git\OpenSuperResolution\OSR\OSR\Release\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>6F40C83A5F494D1595D0403A643EE9429F9E15B8C81C3F037178BAB096D3F251</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>527AE06025F3375F50C770EC080745EC7570B3183A124B9EB2431DBE91BBBF26</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>bfd43651-2c3e-4312-9ab9-924928e32e38_1.0.0.0_x86__pxmh09bcgc13t</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>bfd43651-2c3e-4312-9ab9-924928e32e38_pxmh09bcgc13t!App</RegisteredUserModeAppID>
     <RegisteredPackageID>bfd43651-2c3e-4312-9ab9-924928e32e38</RegisteredPackageID>
@@ -22,49 +22,59 @@
     <AppXManifest Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-08T02:58:15.896</Modified>
+      <Modified>2015-12-09T04:27:04.969</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\LockScreenLogo.scale-200.png">
-      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2015-06-05T01:32:06.000</Modified>
+    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\AppTitleIcon.png">
+      <PackagePath>Assets\AppTitleIcon.png</PackagePath>
+      <Modified>2015-12-09T00:41:20.512</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\SplashScreen.scale-200.png">
-      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <Modified>2015-06-05T01:32:06.000</Modified>
+    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\BadgeLogo.Scale-100.png">
+      <PackagePath>Assets\BadgeLogo.Scale-100.png</PackagePath>
+      <Modified>2015-12-09T00:41:24.088</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\Square150x150Logo.scale-200.png">
-      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2015-06-05T01:32:06.000</Modified>
+    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\Logo.Scale-100.png">
+      <PackagePath>Assets\Logo.Scale-100.png</PackagePath>
+      <Modified>2015-12-09T00:41:20.609</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\Square44x44Logo.scale-200.png">
-      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <Modified>2015-06-05T01:32:06.000</Modified>
+    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\SmallLogo.Scale-100.png">
+      <PackagePath>Assets\SmallLogo.Scale-100.png</PackagePath>
+      <Modified>2015-12-09T00:41:20.630</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
-      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <Modified>2015-06-05T01:32:06.000</Modified>
+    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\SplashScreen.Scale-100.png">
+      <PackagePath>Assets\SplashScreen.Scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-09T00:41:24.065</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <Modified>2015-06-05T01:32:06.000</Modified>
+    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\Square310x310Logo.Scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.Scale-100.png</PackagePath>
+      <Modified>2015-12-09T00:41:24.016</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\Wide310x150Logo.scale-200.png">
-      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <Modified>2015-06-05T01:32:06.000</Modified>
+    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\Square70x70Logo.Scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.Scale-100.png</PackagePath>
+      <Modified>2015-12-09T00:41:20.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\StoreLogo.Scale-100.png">
+      <PackagePath>Assets\StoreLogo.Scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-09T00:41:24.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\Assets\WideLogo.Scale-100.png">
+      <PackagePath>Assets\WideLogo.Scale-100.png</PackagePath>
+      <Modified>2015-12-09T00:41:23.987</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\OSR.exe">
       <PackagePath>OSR.exe</PackagePath>
-      <Modified>2015-12-08T04:51:11.082</Modified>
+      <Modified>2015-12-09T04:38:40.727</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\OSR.winmd">
       <PackagePath>OSR.winmd</PackagePath>
-      <Modified>2015-12-08T02:58:10.743</Modified>
+      <Modified>2015-12-09T03:46:07.177</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\git\OpenSuperResolution\OSR\Release\OSR\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-12-08T04:51:12.346</Modified>
+      <Modified>2015-12-09T04:38:41.119</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -8,16 +8,55 @@
       <UniqueIdentifier>bfba0580-5653-40ec-a87d-bc651e8b929f</UniqueIdentifier>
       <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
     </Filter>
-    <Image Include="Assets\Logo.scale-100.png">
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OSR_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\AppTitleIcon.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="Assets\SmallLogo.scale-100.png">
+    <Image Include="Assets\BadgeLogo.Scale-100.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="Assets\StoreLogo.scale-100.png">
+    <Image Include="Assets\Logo.Scale-100.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="Assets\SplashScreen.scale-100.png">
+    <Image Include="Assets\SmallLogo.Scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.Scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square70x70Logo.Scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square310x310Logo.Scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.Scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideLogo.Scale-100.png">
       <Filter>Assets</Filter>
     </Image>
   </ItemGroup>

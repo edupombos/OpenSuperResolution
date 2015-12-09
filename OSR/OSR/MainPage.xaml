@@ -8,15 +8,15 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <AppBar>
-            <AppBarButton HorizontalAlignment="Center" Click="AppBarButton_Click">
-                
-            </AppBarButton>
+        <StackPanel x:Name="contentPanel" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" BorderThickness="24,12" >
+            <StackPanel x:Name="titlePanel" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" BorderThickness="0" Orientation="Horizontal" >
+                <Image x:Name="image" Source="Assets/SmallLogo.png" HorizontalAlignment="Center" Stretch="None" VerticalAlignment="Center" Margin="0,0,12,10"/>
+                <TextBlock x:Name="title" Style="{ThemeResource BaseTextBlockStyle}" Text="Open Super Resolution"/>
+            </StackPanel>
+            <TextBlock x:Name="demo1" Style="{ThemeResource BaseTextBlockStyle}" Text="OSR - Oper Super Resolution"/>
             
-            
-        </AppBar>
-        <StackPanel x:Name="contentPanel" Margin="120,30,0,0">
-            <TextBlock Style="{ThemeResource BaseTextBlockStyle}" FontSize="16" Text="What's your name?"/>
+            <TextBlock x:Name="description" Style="{ThemeResource BaseTextBlockStyle}"  Text="OSR - Oper Super Resolution"/>
+            <Button x:Name="button" Content="Button" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
         </StackPanel>
     </Grid>
 </Page>
