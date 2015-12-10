@@ -31,3 +31,9 @@ void OSR::MainPage::AppBarButton_Click(Platform::Object^ sender, Windows::UI::Xa
 {
 	//
 }
+
+
+void OSR::MainPage::button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+
+}

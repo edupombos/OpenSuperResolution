@@ -16,7 +16,7 @@
             <TextBlock x:Name="demo1" Style="{ThemeResource BaseTextBlockStyle}" Text="OSR - Oper Super Resolution"/>
             
             <TextBlock x:Name="description" Style="{ThemeResource BaseTextBlockStyle}"  Text="OSR - Oper Super Resolution"/>
-            <Button x:Name="button" Content="Button" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <Button x:Name="button" Content="Button" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="button_Click"/>
         </StackPanel>
     </Grid>
 </Page>
